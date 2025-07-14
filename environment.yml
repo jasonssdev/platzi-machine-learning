@@ -1,0 +1,26 @@
+name: ml-py3.12
+channels:
+  - defaults
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.12
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pandas
+  - scikit-learn
+  - seaborn
+  - conda-forge::pdfplumber
+  - conda-forge::openai
+  - python-dotenv==1.1.0
+  - openpyxl
+  - statsmodels
+  - pathlib
+  - jupyter_client[version='<8']
+  - notebook
+  - pyzmq[version='<25']
+  - ipywidgets
+  - xlrd
+prefix: /Users/jasonssdev/opt/anaconda3/envs/ml-py3.12
